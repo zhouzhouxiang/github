@@ -1,0 +1,462 @@
+*{margin: 0;padding: 0;}
+.logo{
+    height: 60px;
+    background: #18bebe url('images/logo.png') no-repeat center
+}
+.top{
+    height: 30px;
+    background-color: #efefef;
+}
+.header{
+    height: 30px;
+    width: 1400px;
+    background-color: #efefef;
+    margin: auto auto;
+    position: relative;
+}
+.header>.left{
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    left: 220px;
+    overflow: hidden;
+}
+.header>.center{
+    height: 30px;
+    width: 400px;
+    position: absolute;
+    left: 550px;
+    overflow: hidden;
+}
+.header>.right{
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    left: 1100px;
+}
+.location{
+    height: 20px;
+    width: 20px;
+    background: url('images/location.png');
+    margin-top: 5px;
+    float: left;
+    cursor: pointer;
+}
+.text-left,.text-right{
+    margin-top: 8px;
+    margin-left: 5px;
+    float: left;
+    font-size: 12px;
+    cursor: pointer;
+}
+.header>.center a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+    margin-right: 60px;
+}
+.person{
+    height: 20px;
+    width: 20px;
+    background: url('images/adm.png');
+    float: left;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.title{
+    height: 50px;
+    width: 1000px;
+    margin: auto auto;
+    position: relative;
+}
+.title p{
+    position: absolute;
+    top:30%;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.nav{
+    height: 160px;
+    width: 1000px;
+    background-color: #efefef;
+    margin: auto auto;
+}
+.nav div{
+    height: 40px;
+    position: relative;
+}
+.link{
+    display: inline-block;
+    text-decoration: none;
+    color: #18bebe;
+    line-height: 40px;
+    margin-left: 10px;
+    font-size: small;
+}
+
+.nav ul{
+    list-style: none;
+    overflow: hidden;
+    position: absolute;
+    left: 60px;
+    top: 1px;
+}
+.nav li{
+    float: left;
+    line-height: 40px;
+    width: 65px;
+    margin-left: 5px;
+}
+.list a{
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+.special-two{
+    margin-right: 18px;
+}
+.special-three{
+    margin-right: 30px;
+}
+.special-four{
+    width: 14px;
+    height: 10px;
+    background: url('images/indexSelect.png');
+    position: absolute;
+    left: 76%;
+    top: 15px;
+}
+.mid{
+    height: 50px;
+}
+.mid{
+    width: 1000px;
+    height: 50px;
+    background-color: #efefef;
+    margin: auto auto;
+    margin-top: 20px;
+    position: relative;
+}
+.mid>.left{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    overflow: hidden;
+}
+.mid>.center{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 350px;
+}
+.mid>.right{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 700px;
+    overflow: hidden;
+}
+.mid>.left span{
+    margin-left: 20px;
+    margin-top: 15px;
+    float: left;
+    font-size: 13px;
+    
+}
+.downicon{
+    margin-top: 22px;
+    margin-left: -116px;
+    cursor: pointer;
+}
+.upicon{
+    margin-left: 30px;
+    padding-right: 28px;
+    cursor: pointer;
+}
+.mid>.center input{
+    box-sizing: border-box;
+    height: 38px;
+    width: 200px;
+    padding-left: 15px;
+    margin-top: 6px;
+    border-radius: 40px;
+    border: 1px solid #eee;
+    outline: none;
+}
+.mid>.center button{
+    border: none;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    display: block;
+    z-index: 100;
+    position: absolute;
+    top: 18px;
+    right: 80px;
+    background: url('images/search.png')
+}
+.mid>.center p{
+    font-size: 12px;
+    position: absolute;
+    top: 16px;
+    right: 55px;
+    cursor: pointer;
+}
+.mid>.right img{
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.mid>.right p{
+    float: right;
+    margin-top: -24px;
+    margin-right: 48px;
+    color: #18bebe;
+    cursor: pointer;
+}
+.container{
+    width: 1000px;
+    margin: auto auto;
+    overflow: hidden; 
+    margin-top: 20px; 
+}
+.container div,.content div{
+    width: 238px;
+    height: 344px;
+    border: 1px solid #dfdfdf;
+    background-color: #efefef;
+    float: left;
+    position: relative;
+}
+.container>.first,.container>.second,.content>.first,.content>.second{
+    margin-right: 13px;
+}
+.container>.third,.content>.third{
+    margin-right: 14px;
+}
+.container img,.content img{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.container p,.content p{
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 13px;
+    color:black;
+}
+.container strong,.content strong{
+    margin-left: 15px;
+    position: absolute;
+    bottom: 10px;
+    color:#18bebe;
+}
+.container span,.content span{
+    font-size: 13px;
+    position: absolute;
+    bottom: 12px;
+    right: 55px;
+    color: #18bebe;
+}
+.container>.first p,.container>.first strong,.container>.first span{
+    color: orange;
+}
+.content{
+    width: 1000px;
+    margin: auto auto;
+    overflow: hidden; 
+    margin-top: 10px; 
+}
+.foot{
+    width: 1000px;
+    height: 50px;
+    margin: auto auto;
+    margin-top: 30px;
+}
+.foot>.up,.foot>.down{
+    display: inline-block;
+    background-color: #ebebeb;
+    color: #333;
+    text-decoration: none;
+    padding: 3px 25px;
+}
+.one,.three,.four,.five{
+    text-decoration: none;
+    color: #333;
+    margin: 0 5px;
+}
+.two{
+    color: orange;
+    margin: 0 5px;
+}
+.foot>.up{
+    margin-right: 30px;
+}
+.foot>.down{
+    margin: 0 30px;
+}
+.foot p{
+    display: inline-block;
+}
+.foot input{
+    width: 26px;
+    height: 26px;
+    border: 2px solid #515151;
+    margin:0 5px;
+}
+.foot button{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin-left: 50px;
+    color: white;
+    background-color: orange;
+    border: none;
+    font-size: 15px;
+}
+.tips{
+    height: 100px;
+    width: 1000px;
+    margin: auto auto;
+    overflow: hidden;
+    position: relative;
+}
+.tips img{
+    margin: 8px 6px;
+    border: 1px solid #ebebeb;
+    float: left;
+}
+.tips h3{
+    position: absolute;
+    top: 15px;
+    left: 120px;
+    color: #18bebe;
+}
+.tips>.first{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+.tips>.second{
+    position: absolute;
+    bottom: 12px;
+    left: 120px;
+}
+.tips strong{
+    color: #616161;
+    font-size: small;
+}
+.final{
+    height: 170px;
+    background-color: #515151;
+    margin-top: 20px;
+}
+.final>.bottom{
+    height: 170px;
+    width: 1000px;
+    background-color:#515151;
+    margin: auto auto;
+    position: relative;
+    overflow: hidden;
+}
+.bottom>.special{
+    margin: 20px 10px;
+}
+.bottom h5{
+    margin: 2px 8px;
+    color: white;
+}
+.bottom h6{
+    margin: 8px;
+    color: white;
+}
+.bottom p{
+    display: inline-block;
+    font-size: 10px;
+    margin: 30px 8px;
+    color: white;
+}
+.bottom a{
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+}
+.bottom table{
+    position: absolute;
+    top: 50px;
+    left: 450px;
+    border-collapse: collapse;
+    color: white;
+    font-size: 11px;
+    width: 250px;
+    line-height: 35px;
+    text-align: center;
+}
+.bottom img,.bottom strong{
+    cursor: pointer;
+}
+.bottom>.first{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+.bottom>.second{
+    position: absolute;
+    top: 85px;
+    right: 200px;
+}
+.bottom>.thrid{
+    position: absolute;
+    top: 120px;
+    right: 200px;
+}
+.bottom strong{
+     font-size: 12px;
+     color: white;
+}
+.bottom>.one{
+    position: absolute;
+    top: 55px;
+    right: 130px;
+}
+.bottom>.two{
+    position: absolute;
+    top: 90px;
+    right: 117px;
+}
+.bottom>.three{
+    position: absolute;
+    top: 125px;
+    right: 130px;
+}
+.last{
+    height: 50px;
+    background-color:#515151;
+}
+.last>.center{
+    width: 1000px;
+    height: 50px;
+    background-color:#515151;
+    margin:  auto auto;
+    position: relative;
+}
+.last h5{
+     position: absolute;
+     top: 15px;
+     left: 10px;
+}
+.last p{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+.last h5,.last p{
+    color: white;
+    font-size: 12px;
+}
+hr{
+    margin-top: 20px;
+    border: 0.5px solid #eee;
+}
+
